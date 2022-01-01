@@ -1,0 +1,168 @@
+/* GENERAL STYLES */
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito sans", sans-serif;
+}
+
+h1,
+.nav-links,
+h2 {
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+
+/*NAV*/
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+  font-size: 1.6rem;
+  gap: 10rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  font-size: 5rem;
+}
+
+nav {
+  padding: 3rem;
+  margin-bottom: 8rem;
+}
+
+/*HEADER*/
+
+.header-text {
+  text-align: center;
+  max-width: 850px;
+  margin: 0 auto;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.heading-primary {
+  font-size: 6rem;
+  margin-bottom: 2rem;
+}
+
+.period {
+  color: #51cf66;
+}
+
+.about {
+  font-size: 4rem;
+  color: #343a40;
+  font-weight: 400;
+}
+
+/*WORK*/
+
+.work {
+  padding: 20rem 10rem;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.project {
+  width: 30%;
+}
+
+.project img {
+  width: 100%;
+  height: 17rem;
+  border: 1px solid black;
+  margin-bottom: 3rem;
+}
+
+.project h2 {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+}
+
+.project p {
+  font-size: 1.6rem;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.web-link {
+  width: 2rem;
+  height: 2rem;
+}
+
+.git {
+  font-size: 2rem;
+}
+
+/*CONTACT*/
+
+.contact {
+  padding-bottom: 15rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-form h2 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+}
+
+input {
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+}
+
+.submit-btn {
+  width: 40%;
+  background-color: #51cf66;
+  border: none;
+  padding: 1.5rem 0.5rem;
+  color: #fff;
+  font-size: 18px;
+}
+
+textarea {
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+}
+
+/*FOOTER*/
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.4rem;
+}
